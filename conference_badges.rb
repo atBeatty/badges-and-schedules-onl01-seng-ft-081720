@@ -31,5 +31,8 @@ def printer(array)
   message_hello.each do |message|
     puts message
   end
-  
+  message_rooms = assign_rooms(array)
+  message_rooms.each do |message|
+    puts message
+  end
 end
