@@ -26,6 +26,6 @@ rooms
 end
 
 def printer(array)
-  array.each do |el| 
+  array.each do |el|
     puts badge_messages
 end
