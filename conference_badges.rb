@@ -1,7 +1,7 @@
 # Write your code here.
 
-def badge_maker(name)
-  "Hello, my name is #{name}."
+def badge_maker(speaker)
+  "Hello, my name is #{speaker}."
 
 end
 
@@ -25,6 +25,6 @@ def assign_rooms(array)
 rooms
 end
 
-def printer
+def printer()
   puts (name)
 end
