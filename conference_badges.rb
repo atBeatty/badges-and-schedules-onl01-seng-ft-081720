@@ -14,14 +14,14 @@ badge_messages
 end
 
 def assign_rooms(array)
-  
+
   rooms = []
   counter = 1
   array.each do |speaker|
     rooms << "Hello, #{speaker}! You'll be assigned to room #{counter}!"
     counter += 1 if counter < 8
   end
-    
+
 rooms
 end
 
